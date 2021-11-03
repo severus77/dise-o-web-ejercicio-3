@@ -1,0 +1,503 @@
+                                                body {
+                                                    margin: 0;
+                                                    padding: 0;
+                                                    font-family: 'Poppins';
+                                                }
+                                                
+                                                .contenedor {
+                                                    width: 90%;
+                                                    max-width: 1280px;
+                                                    margin: auto;
+                                                }
+                                                
+                                                .menu {
+                                                    background: #fff;
+                                                    padding: 20px 20px;
+                                                }
+                                                
+                                                .menu .contenedor {
+                                                    display: flex;
+                                                    justify-content: space-between;
+                                                    align-items: center;
+                                                }
+                                                
+                                                header .logo {
+                                                    font-size: 23px;
+                                                    font-weight: 600;
+                                                    margin: 0;
+                                                }
+                                                
+                                                nav li {
+                                                    display: inline-block;
+                                                    margin-right: 40px;
+                                                }
+                                                /*  INTRO*/
+                                                
+                                                #intro {
+                                                    padding-top: 40px;
+                                                    text-align: center;
+                                                    background: url(imagenes/back.jpg);
+                                                    height: 60vh;
+                                                    background-size: cover;
+                                                    background-position: 57% 52%;
+                                                    color: #fff;
+                                                }
+                                                
+                                                #intro h2 {
+                                                    font-size: 74px;
+                                                    font-family: 'Playfair Display';
+                                                    font-weight: normal;
+                                                    padding-top: 20px;
+                                                    margin: 0;
+                                                }
+                                                
+                                                #intro p {
+                                                    color: #bfbfbf;
+                                                    font-size: 18px;
+                                                    width: 60%;
+                                                    margin: auto;
+                                                    padding-top: 50px;
+                                                    line-height: 40px;
+                                                    margin-bottom: 50px;
+                                                }
+                                                
+                                                #intro a {
+                                                    text-decoration: none;
+                                                    margin-right: 20px;
+                                                    font-size: 18px;
+                                                    color: #fff;
+                                                    text-transform: uppercase;
+                                                }
+                                                
+                                                #intro .boton-uno {
+                                                    border: #fff solid 1px;
+                                                    padding: 10px 20px;
+                                                }
+                                                
+                                                #intro .boton-dos {
+                                                    background-color: #c39d63;
+                                                    padding: 11px 20px;
+                                                }
+                                                /* OUR STORY */
+                                                
+                                                #our-story {
+                                                    padding-top: 60px;
+                                                }
+                                                
+                                                #our-story .contenedor {
+                                                    display: flex;
+                                                    width: 90%;
+                                                    justify-content: center;
+                                                }
+                                                
+                                                #our-story .caja-izquierda {
+                                                    width: 45%;
+                                                }
+                                                
+                                                #our-story .titulo {
+                                                    color: #bfbfbf;
+                                                    font-size: 18px;
+                                                    font-weight: 600;
+                                                    letter-spacing: 2px;
+                                                    text-transform: uppercase;
+                                                }
+                                                
+                                                #our-story .caja-izquierda hr {
+                                                    border-color: #C29D63;
+                                                    float: left;
+                                                    width: 10%;
+                                                }
+                                                
+                                                #our-story h2 {
+                                                    font-family: 'Playfair Display';
+                                                    font-size: 49px;
+                                                    font-weight: 300;
+                                                    padding-top: 15px;
+                                                }
+                                                
+                                                #our-story .parrafo {
+                                                    color: #939393;
+                                                    font-size: 17px;
+                                                    line-height: 30px;
+                                                    width: 88%;
+                                                }
+                                                /* Grilled-fillet */
+                                                
+                                                #grilled {
+                                                    background: black;
+                                                }
+                                                
+                                                #grilled .contenedor {
+                                                    width: 90%;
+                                                    background: #fff;
+                                                    margin: auto;
+                                                    max-width: 1280px;
+                                                    padding-top: 60px;
+                                                }
+                                                
+                                                #grilled .caja-superior div,
+                                                #grilled .caja-inferior div {
+                                                    display: inline-block;
+                                                    width: 33%;
+                                                }
+                                                
+                                                #grilled ul {
+                                                    padding: 0;
+                                                    margin: 0;
+                                                }
+                                                
+                                                .texto li {
+                                                    list-style: none;
+                                                }
+                                                
+                                                #grilled .texto {
+                                                    text-align: center;
+                                                    position: relative;
+                                                    top: -40px;
+                                                }
+                                                
+                                                #grilled .precio {
+                                                    font-size: 24px;
+                                                    color: #C29D62;
+                                                }
+                                                
+                                                #grilled .titulo {
+                                                    font-family: 'Playfair Display';
+                                                    font-size: 25px;
+                                                    font-weight: 100;
+                                                    margin-top: 20px;
+                                                }
+                                                
+                                                #grilled .parrafo {
+                                                    color: #939393;
+                                                    line-height: 30px;
+                                                    margin-top: 20px;
+                                                }
+                                                
+                                                #grilled .cangrejo {
+                                                    background: url(imagenes/cangrejo.png);
+                                                    height: 285px;
+                                                    width: 300px;
+                                                    background-size: cover;
+                                                    background-repeat: no-repeat;
+                                                }
+                                                
+                                                #grilled .hongos {
+                                                    background: url(imagenes/hongos.png);
+                                                    height: 285px;
+                                                    width: 300px;
+                                                    background-repeat: no-repeat;
+                                                    background-size: cover;
+                                                    position: relative;
+                                                    top: -11px;
+                                                }
+                                                
+                                                #grilled .pez {
+                                                    background: url(imagenes/pez.png);
+                                                    height: 285px;
+                                                    width: 300px;
+                                                    background-repeat: no-repeat;
+                                                    background-size: cover;
+                                                    position: relative;
+                                                    top: -11px;
+                                                    left: 25px;
+                                                }
+                                                
+                                                .caja-inferior {
+                                                    height: 274px;
+                                                }
+                                                /* TESTIMONIALS */
+                                                
+                                                #testimonials {
+                                                    padding-top: 90px;
+                                                }
+                                                
+                                                #testimonials .caja-testimonials {
+                                                    display: flex;
+                                                    padding: 0px 90px;
+                                                }
+                                                
+                                                .contenedor-testimonials {
+                                                    text-align: center;
+                                                }
+                                                
+                                                #testimonials .titulo {
+                                                    text-transform: uppercase;
+                                                    color: #bfbfbf;
+                                                    letter-spacing: 2px;
+                                                    font-weight: 700;
+                                                }
+                                                
+                                                #testimonials hr {
+                                                    border-color: #C29D63;
+                                                    width: 3%;
+                                                }
+                                                
+                                                #testimonials h2 {
+                                                    font-family: 'Playfair Display';
+                                                    font-size: 50px;
+                                                    font-weight: 300;
+                                                }
+                                                
+                                                .testimonios img {
+                                                    width: 50%;
+                                                }
+                                                
+                                                .testimonios .texto {
+                                                    font-size: 20px;
+                                                    font-weight: 600;
+                                                }
+                                                
+                                                .testimonios .comentarios {
+                                                    color: #939393;
+                                                    width: 90%;
+                                                    line-height: 30px;
+                                                }
+                                                
+                                                .testimonios {
+                                                    width: 25%;
+                                                    text-align: left;
+                                                }
+                                                /* CONTACTO */
+                                                
+                                                #contacto {
+                                                    background: url(imagenes/restaurant.jpg);
+                                                    color: #fff;
+                                                    padding: 90px 0px;
+                                                }
+                                                
+                                                #contacto .contenedor {
+                                                    width: 90%;
+                                                    display: flex;
+                                                    justify-content: center;
+                                                    text-align: center;
+                                                }
+                                                
+                                                #contacto .izquierda {
+                                                    width: 35%;
+                                                    height: 50%;
+                                                    margin-right: 40px;
+                                                    background: #1f1f1f;
+                                                    padding: 100px 28px;
+                                                }
+                                                
+                                                #contacto .derecha {
+                                                    width: 35%;
+                                                    height: 50%;
+                                                    background: #1f1f1f;
+                                                    padding: 84px 28px;
+                                                }
+                                                
+                                                #contacto ul {
+                                                    list-style: none;
+                                                    padding: 0;
+                                                }
+                                                
+                                                #contacto .lista-uno,
+                                                #contacto .lista-dos {
+                                                    border-bottom: solid 2px #C29D62;
+                                                    padding-bottom: 10px;
+                                                    margin-bottom: 20px;
+                                                }
+                                                
+                                                #contacto .izquierda h2 {
+                                                    font-family: 'Playfair Display';
+                                                    font-size: 35px;
+                                                    font-weight: 500;
+                                                }
+                                                
+                                                #contacto .dias {
+                                                    text-transform: uppercase;
+                                                    font-weight: 700;
+                                                }
+                                                
+                                                #contacto .horarios {
+                                                    font-size: 15px;
+                                                }
+                                                
+                                                #contacto .boton {
+                                                    display: inline-block;
+                                                    background: #C29D62;
+                                                    text-transform: uppercase;
+                                                    color: #fff;
+                                                    text-decoration: none;
+                                                    letter-spacing: 2px;
+                                                    font-size: 17px;
+                                                    padding: 10px 10px;
+                                                    margin-top: 32px;
+                                                    margin-bottom: 75px;
+                                                }
+                                                
+                                                #contacto h3 {
+                                                    font-size: 22px;
+                                                    font-weight: 400;
+                                                    margin: 0;
+                                                }
+                                                
+                                                #contacto p {
+                                                    width: 80%;
+                                                    margin: auto;
+                                                    opacity: 0.8;
+                                                    font-size: 16px;
+                                                }
+                                                
+                                                #contacto form {
+                                                    margin-top: 25px;
+                                                }
+                                                
+                                                input[type="text"],
+                                                input[type="email"] {
+                                                    width: 82%;
+                                                    margin: 0;
+                                                    background: #111111;
+                                                    padding: 15px;
+                                                    border: none;
+                                                    color: #fff;
+                                                    margin-bottom: 10px;
+                                                    font-size: 16px;
+                                                }
+                                                
+                                                input[type=submit] {
+                                                    display: block;
+                                                    width: 89%;
+                                                    margin: auto;
+                                                    border: none;
+                                                    padding: 10px;
+                                                    background: #C29D62;
+                                                    text-transform: uppercase;
+                                                    color: #fff;
+                                                    text-decoration: none;
+                                                    letter-spacing: 2px;
+                                                    font-size: 17px;
+                                                }
+                                                
+                                                 ::placeholder {
+                                                    color: antiquewhite;
+                                                }
+                                                /* RESPONSIVE DESIGN */
+                                                
+                                                @media screen and (max-width:800px) {
+                                                    nav {
+                                                        position: absolute;
+                                                        background: black;
+                                                        color: #fff;
+                                                        top: 74px;
+                                                        left: 0px;
+                                                        width: 100%;
+                                                        display: none;
+                                                    }
+                                                    nav li {
+                                                        display: block;
+                                                        margin-bottom: 20px;
+                                                    }
+                                                    .menu-mobile {
+                                                        position: absolute;
+                                                        right: 20px;
+                                                        width: 30px;
+                                                    }
+                                                    /* section intro */
+                                                    #intro {
+                                                        height: 55vh;
+                                                    }
+                                                    #intro h2 {
+                                                        font-size: 38px;
+                                                    }
+                                                    #intro p {
+                                                        width: 100%;
+                                                        font-size: 13px;
+                                                        padding-top: 30px;
+                                                        line-height: 30px;
+                                                    }
+                                                    #intro .intro-boton {
+                                                        display: flex;
+                                                    }
+                                                    #intro a {
+                                                        margin: auto;
+                                                        font-size: 15px;
+                                                    }
+                                                    /* OUR STORY */
+                                                    #our-story {
+                                                        padding-top: 80px;
+                                                    }
+                                                    #our-story .contenedor {
+                                                        flex-direction: column;
+                                                    }
+                                                    #our-story .caja-izquierda {
+                                                        width: 100%;
+                                                        text-align: center;
+                                                    }
+                                                    #our-story h2 {
+                                                        font-size: 40px;
+                                                    }
+                                                    #our-story .parrafo {
+                                                        width: 100%;
+                                                    }
+                                                    #our-story img {
+                                                        width: 100%;
+                                                    }
+                                                    #our-story .caja-derecha {
+                                                        margin-top: 40px;
+                                                    }
+                                                    /* GRILLED */
+                                                    #grilled {
+                                                        margin-top: 0px;
+                                                    }
+                                                    #grilled .caja-superior div,
+                                                    #grilled .caja-inferior div {
+                                                        width: 100%;
+                                                    }
+                                                    #grilled .caja-inferior {
+                                                        height: 0%;
+                                                    }
+                                                    #grilled ul {
+                                                        margin-top: 50px;
+                                                    }
+                                                    #grilled .foto,
+                                                    #grilled .texto {
+                                                        width: 100% !important;
+                                                    }
+                                                    #grilled .hongos {
+                                                        top: -20px;
+                                                    }
+                                                    #grilled .pez {
+                                                        left: 0;
+                                                        top: 6px;
+                                                    }
+                                                    #grilled .texto,
+                                                    {
+                                                        top: -45px;
+                                                    }
+                                                    #grilled .contenedor {
+                                                        padding-top: 0%;
+                                                    }
+                                                    /* TESTIMONIALS */
+                                                    .contenedor-testimonials {
+                                                        width: 90%;
+                                                        margin: auto;
+                                                    }
+                                                    #testimonials .caja-testimonials {
+                                                        flex-direction: column;
+                                                        padding: 0;
+                                                    }
+                                                    #testimonials .testimonios {
+                                                        width: 100%;
+                                                    }
+                                                    .testimonios .comentarios {
+                                                        font-size: 17px;
+                                                    }
+                                                    /* CONTACTO */
+                                                    #contacto {
+                                                        padding-top: 90px;
+                                                    }
+                                                    #contacto .contenedor {
+                                                        flex-direction: column;
+                                                    }
+                                                    #contacto .izquierda,
+                                                    #contacto .derecha {
+                                                        width: 81%;
+                                                        padding: 75px 30px;
+                                                    }
+                                                    #contacto .izquierda {
+                                                        margin-bottom: 55px;
+                                                    }
+                                                }
